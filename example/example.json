@@ -1,0 +1,239 @@
+{
+    "Application": {
+        "Application%20Window": {
+            "ApplicationWindow": {
+                "WindowBackgroundColor": {
+                    "DataType": "string",
+                    "Value": "0x000000",
+                    "DefaultValue": "0x505050",
+                    "LowRange": "%",
+                    "HighRange": "%"
+                }
+            }
+        },
+        "Sequencing": {
+            "StimulusTask": {
+                "PreRunDuration": {
+                    "DataType": "float",
+                    "Value": "5s",
+                    "DefaultValue": "1",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                },
+                "PostRunDuration": {
+                    "DataType": "float",
+                    "Value": "5s",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                },
+                "PreSequenceDuration": {
+                    "DataType": "float",
+                    "Value": "5s",
+                    "DefaultValue": "2s",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                },
+                "PostSequenceDuration": {
+                    "DataType": "float",
+                    "Value": "5s",
+                    "DefaultValue": "2s",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                },
+                "StimulusDuration": {
+                    "DataType": "float",
+                    "Value": "1s",
+                    "DefaultValue": "40ms",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                },
+                "EarlyOffsetExpression": {
+                    "DataType": "string",
+                    "Value": "%"
+                },
+                "ISIMinDuration": {
+                    "DataType": "float",
+                    "Value": "3.5s",
+                    "DefaultValue": "80ms",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                },
+                "ISIMaxDuration": {
+                    "DataType": "float",
+                    "Value": "4.5s",
+                    "DefaultValue": "80ms",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                }
+            },
+            "StimulusPresentationTask": {
+                "Sequence": {
+                    "DataType": "intlist",
+                    "NumValue": "60",
+                    "Values": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+                },
+                "SequenceType": {
+                    "DataType": "int",
+                    "Value": "2",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "2"
+                },
+                "NumberOfSequences": {
+                    "DataType": "int",
+                    "Value": "1",
+                    "DefaultValue": "1",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                },
+                "ToBeCopied": {
+                    "DataType": "intlist",
+                    "NumValue": "1",
+                    "Values": "1 1 1 %"
+                },
+                "UserComment": {
+                    "DataType": "string",
+                    "Value": "%"
+                }
+            }
+        },
+        "Result%20Processing": {
+            "StimulusTask": {
+                "InterpretMode": {
+                    "DataType": "int",
+                    "Value": "2",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "2"
+                },
+                "DisplayResults": {
+                    "DataType": "int",
+                    "Value": "0",
+                    "DefaultValue": "1",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                },
+                "AccumulateEvidence": {
+                    "DataType": "int",
+                    "Value": "0",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                },
+                "MinimumEvidence": {
+                    "DataType": "float",
+                    "Value": "0",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "%"
+                }
+            }
+        },
+        "Stimuli": {
+            "StimulusPresentationTask": {
+                "StimulusWidth": {
+                    "DataType": "int",
+                    "Value": "100",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "100"
+                },
+                "CaptionHeight": {
+                    "DataType": "int",
+                    "Value": "10",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "100"
+                },
+                "CaptionColor": {
+                    "DataType": "string",
+                    "Value": "0xFFFFFF",
+                    "DefaultValue": "0x00FFFFFF",
+                    "LowRange": "0x00000000",
+                    "HighRange": "0xFFFFFFFF"
+                },
+                "BackgroundColor": {
+                    "DataType": "string",
+                    "Value": "0x00000000",
+                    "DefaultValue": "0x00FFFF00",
+                    "LowRange": "0x00000000",
+                    "HighRange": "0xFFFFFFFF"
+                },
+                "CaptionSwitch": {
+                    "DataType": "int",
+                    "Value": "1",
+                    "DefaultValue": "1",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                },
+                "IconSwitch": {
+                    "DataType": "int",
+                    "Value": "1",
+                    "DefaultValue": "1",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                },
+                "AudioSwitch": {
+                    "DataType": "int",
+                    "Value": "1",
+                    "DefaultValue": "1",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                },
+                "TimingSwitch": {
+                    "DataType": "int",
+                    "Value": "1",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                },
+                "AudioVolume": {
+                    "DataType": "float",
+                    "Value": "100",
+                    "DefaultValue": "100",
+                    "LowRange": "0",
+                    "HighRange": "100"
+                }
+            }
+        }
+    },
+    "Visualize": {
+        "Application%20Window": {
+            "ApplicationWindow": {
+                "VisualizeApplicationWindow": {
+                    "DataType": "int",
+                    "Value": "0",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                },
+                "AppWindowSpatialDecimation": {
+                    "DataType": "int",
+                    "Value": "8",
+                    "DefaultValue": "8",
+                    "LowRange": "1",
+                    "HighRange": "%"
+                },
+                "AppWindowTemporalDecimation": {
+                    "DataType": "int",
+                    "Value": "4",
+                    "DefaultValue": "16",
+                    "LowRange": "1",
+                    "HighRange": "%"
+                }
+            }
+        },
+        "Application%20Log": {
+            "ApplicationBase": {
+                "ShowAppLog": {
+                    "DataType": "int",
+                    "Value": "1",
+                    "DefaultValue": "0",
+                    "LowRange": "0",
+                    "HighRange": "1"
+                }
+            }
+        }
+    }
+}
